@@ -1,0 +1,118 @@
+
+	a:hover
+	{
+		background-color: white;
+	}
+	#hola
+	{
+		color: rgb(0,0,0);
+		font-size: 100px;
+		font-family: Tahoma, Verdana, Segoe, sans-serif;
+		text-transform: uppercase;
+		font-style: normal;
+		font-weight: lighter;
+
+	}
+	#hola:hover{
+		color: rgb(random);
+	}
+	.btn
+	{
+		text-align: center;
+		margin-top: 40px;
+
+	}
+	li{
+		list-style-type: none;
+		display: inline-block;
+	}
+	a{
+		text-decoration: none;
+		color: #fff;
+		text-transform: uppercase;
+		font-family: montserrat;
+		font-weight: bolder;
+		padding: 16px 40px;
+		font-size: 50px;
+
+	}
+
+	.lolo:hover{
+		color: black;
+		background: none;
+		transition: 0.5s;
+	}
+
+	.baby
+	{
+	
+	background-image: url(https://iso.500px.com/wp-content/uploads/2015/12/stock-photo-125301449.jpg);
+	background-repeat: no-repeat;   
+	background-size:cover;
+	}
+	#caption{
+			font-family: satisfy;
+			font-size: 30px;
+			color: #fff;
+			font-weight: lighter;
+			transition: 2s;
+		}
+		.ntb
+		{
+			text-align: center;
+			left: 50%;
+			top:50%;
+		}
+   		.nba
+   		{
+   			padding: 16px 42px;
+   			font-size: 20px;
+   			font-family: montserrat;
+   			text-transform: uppercase;
+   			border: 1px solid #fff;
+   			background: none;
+   			color: #fff;
+   			font-weight: 300;
+   			transition: 2s;
+   		}
+   		.nba:hover
+   		{
+   			transition: 1.5s;
+   			background: #fff;
+   			color: #000;
+   		}
+   		.boob
+   		{
+   			text-align: center;
+   			text-transform: uppercase;
+   			font-family: montserrat;
+   			font-size: 40px;
+   			font-weight: lighter;
+
+
+
+   		}
+   		.vagena
+   		{
+   			top: 50%;
+   			left: 50%;
+   			font-size: 100px;
+   			font-family: montserrat;
+   			text-align: center;
+
+   		}
+   		.nigga
+   		{
+   			background-image: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/BTrHt7uCiu335hjs/videoblocks-aerial-drone-shot-of-big-blue-waves-makes-white-foam-on-ocean-water-near-sandy-tropical-island-beach-4k-aerial-travel-footage-background-nusa-penida-bali-indonesia_btxaavxy_f_thumbnail-full14.png);
+   			background-repeat: no-repeat;
+   			background-size: 100%;
+   		}
+   		.jhinga
+   		{
+   			background-image: url(https://i.imgur.com/HQaewXl.jpg);
+   			background-size: 100%;
+   			background-repeat: no-repeat;
+   		}
+   		.muhmelele{
+   			border: 0px
+   		}
