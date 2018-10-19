@@ -19,7 +19,9 @@
 	.btn
 	{
 		text-align: center;
-		margin-top: 40px;
+		top: 10px;
+
+		margin-top: 10px;
 
 	}
 	li{
@@ -46,9 +48,11 @@
 	.baby
 	{
 	
-	background-image: url(https://iso.500px.com/wp-content/uploads/2015/12/stock-photo-125301449.jpg);
+	background: url(https://iso.500px.com/wp-content/uploads/2015/12/stock-photo-125301449.jpg);
 	background-repeat: no-repeat;   
+	padding: 95px;
 	background-size:cover;
+	height: 100%
 	}
 	#caption{
 			font-family: satisfy;
@@ -73,13 +77,15 @@
    			background: none;
    			color: #fff;
    			font-weight: 300;
-   			transition: 2s;
+   			
    		}
    		.nba:hover
    		{
-   			transition: 1.5s;
+   			transition: 0.5s;
+   			
    			background: #fff;
    			color: #000;
+   			font-weight: bolder;
    		}
    		.boob
    		{
@@ -115,4 +121,13 @@
    		}
    		.muhmelele{
    			border: 0px
+   		}
+   		.youtube{
+   			background-color: white;
+   		}
+   		.you2{
+   			font-family: montserrat;
+   			font-size: 50px;
+   			text-transform: uppercase;
+   			color: #000;
    		}
