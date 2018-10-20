@@ -5,12 +5,11 @@
 	}
 	#hola
 	{
-		color: rgb(0,0,0);
+		color: #fff;
 		font-size: 100px;
-		font-family: Tahoma, Verdana, Segoe, sans-serif;
-		text-transform: uppercase;
-		font-style: normal;
-		font-weight: lighter;
+		font-family: montserrat;
+		text-transform:lowercase;
+		font-weight: bold;
 
 	}
 	#hola:hover{
@@ -48,7 +47,7 @@
 	.baby
 	{
 	
-	background: url(https://iso.500px.com/wp-content/uploads/2015/12/stock-photo-125301449.jpg);
+	background: url(https://iso.500px.com/wp-content/uploads/2014/07/big-one.jpg);
 	background-repeat: no-repeat;   
 	padding: 95px;
 	background-size:cover;
