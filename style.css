@@ -49,9 +49,9 @@
 	
 	background: url(https://iso.500px.com/wp-content/uploads/2014/07/big-one.jpg);
 	background-repeat: no-repeat;   
-	padding: 319px;
-	background-size:cover;
-	height: 100%
+	padding: 250px;
+	background-size:auto;
+	height: auto;
 	}
 	#caption{
 			font-family: satisfy;
