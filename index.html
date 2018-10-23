@@ -1,42 +1,93 @@
 <!DOCTYPE html>
 <html>
-	<meta name=”viewport” content=”width=device-width, initial-scale=1″>
 <head>
-	<link rel="shortcut icon" href="D:\website1\logo.ico" />
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>java script</title>
 	<link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet'>
 	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-
-<title>Hello World</title>
-	
 </head>
-
-
 <body>
-<div class="baby">
-	<div class="btn">
-		<ul>
-			<li><a style="text-decoration: none;"  href="D:\website1\about me\default.html" class="lolo"></a></li>
+	<style type="text/css">
+		#jsd
+		{
+			font-size: 50px;
+			color: red;
+			font-family: montserrat;
+			color: #fff;
+			text-transform: uppercase;
+		}
+		body{
+			background: url(https://llandscapes-ee1.kxcdn.com/wp-content/uploads/2015/02/11763686274_ea386f73bb_k.jpg);
+			background-size: auto;
+			background-repeat: no-repeat;
+			background-position: center;
+			height: auto;
+			width: auto;
+		
+		}
+		#time{
+			color: #ffff;
+			font-size: 50px;
+			font-family: montserrat;
+		}
+		#show{
+			color: #fff;
+			font-size: 50px;
+			font-family: montserrat;
+
+		}
+		#button{
+			padding: 30px 50px;
+			background: none;
+			font-size: 40px;
+			color: #fff;
+			text-transform: uppercase;
+			border: 1px solid #fff;
+			font-family: montserrat;
+			}
+		#button:hover{
+			background: white;
+			color: black;
+			transition: .5s;
+		}
 			
-			<li><a style="text-decoration: none;" href="file:///D:/website1/my-projects.html" class="lolo"></a></li>
-	   </ul>
-	   
-	</div>
-	   		<h1 align="center" id="hola">ybme</h1>
-	   		<h2 align="center" id="caption">Live , Laugh and Learn</h2>
-	    <div class="ntb">
-	   		<form>
-	   			<button class="nba" type="submit" formaction="https://www.khanacademy.org/computing/computer-programming">
-	    			learn programming
-	   			</button>
-			</form>
-		</div>
-</div>
+			
+	</style>
+
+
+	<div class="tbn">	
+	<button onclick="myfunction()" id="button">click here</button>
+    </div>
+	<h1 id="jsd" align="center"></h1>
+	<h1 id="show" align="center"></h1>
+	<p id="time" align="center"></p>
+		}
 	
-<div class="youtube">
-	<h5 class="you2">a short clip on programming</h5>
-		<iframe  align="middle" width="853" height="480" src="https://www.youtube.com/embed/dU1xS07N-FA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</div>
+<script type="text/javascript">
+
+	function myfunction() 
+{
+		var name=prompt("Enter your name","name");
+		if(name!="") 
+{
+	document.getElementById("jsd").innerHTML='Hello '+name;		
+	var d = new Date();
+    document.getElementById("show").innerHTML = d.getHours()+':'+d.getMinutes();
+	c=d.getHours();
+	if(c>=12 && c<15)
+	document.getElementById("time").innerHTML="good afternoon ";
+	else if (c>=15 && c<=24) 
+	document.getElementById("time").innerHTML='good evening ';
+	else if (c>=0 && c<12)  
+	document.getElementById("time").innerHTML='good morning ';
+}
+
+
+}
+
+
+
+
+</script>
 </body>
 </html>
 
