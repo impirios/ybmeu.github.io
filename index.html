@@ -2,14 +2,14 @@
 <html>
 <head>
 	<title>Hello world</title>
-	<link rel="shortcut icon" href="Iconarchive-Red-Orb-Alphabet-Letter-Y.ico" />
+	<link rel="shortcut icon"  href="C:\Users\dell\Downloads\Iconarchive-Red-Orb-Alphabet-Letter-Y.ico">
 	<link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet'>
 	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
    	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body onload="mytime()">
-	<style type="text/css">
+	<style type="text/css">     
 		
 		body{
 			background: url(https://llandscapes-ee1.kxcdn.com/wp-content/uploads/2015/02/11763686274_ea386f73bb_k.jpg);
@@ -41,8 +41,25 @@
 {
 	
 	var d = new Date();
-    document.getElementById("show").innerHTML = d.getHours()+':'+d.getMinutes();
+	m=d.getMinutes();
+	s=d.getSeconds();
+	
+
+	if (d.getMinutes()<10)
+	{
+    	m='0'+d.getMinutes();    //adding 0 in front of minutes 1-9
+    }
+    
+
+    if (d.getSeconds()<10) 
+    {
+    	s='0'+d.getSeconds();   //adds 0 in front of seconds 1-9
+    }
+
+
+    document.getElementById("show").innerHTML = d.getHours()+':'+m+':'+s; //displays time
     var t = setTimeout(mytime, 500);
+    
 }
 	
 	var x=new Date();
