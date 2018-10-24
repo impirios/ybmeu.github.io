@@ -2,12 +2,13 @@
 <html>
 <head>
 	<title>Hello world</title>
+	<link rel="shortcut icon" href="http://www.walldecalstudio.com/submedia/SubImage/Automotive/800/0/general-lee-01-nomer.ico" />
 	<link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet'>
 	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
    	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body>
+<body onload="mytime()">
 	<style type="text/css">
 		
 		body{
@@ -34,19 +35,29 @@
 	</style>
 	<h1 id="show" align="center"></h1>
 	<p id="time" align="center"></p>
-		}
 	
 <script type="text/javascript">		
+	function mytime() 
+{
+	
 	var d = new Date();
-    	document.getElementById("show").innerHTML = d.getHours()+':'+d.getMinutes();
-	c=d.getHours();
+    document.getElementById("show").innerHTML = d.getHours()+':'+d.getMinutes();
+    var t = setTimeout(mytime, 500);
+}
+	
+	var x=new Date();
+	c=x.getHours();
 	if(c>=12 && c<15)
-	document.getElementById("time").innerHTML="good afternoon ";
+	document.getElementById("time").innerHTML="Good Afternoon ";
 	else if (c>=15 && c<=24) 
-	document.getElementById("time").innerHTML='good evening ';
+	document.getElementById("time").innerHTML='Good evening ';
 	else if (c>=0 && c<12)  
-	document.getElementById("time").innerHTML='good morning ';
+	document.getElementById("time").innerHTML='Good Morning ';
+	var t = setTimeout(wish,1000);
+	
+
 </script>
 </body>
 </html>
+
 
