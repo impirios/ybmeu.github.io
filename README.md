@@ -1,3 +1,3 @@
 # ybmeu.github.io
-project website
-I created this website just to learn..
+Hi there!
+I created this website to learn..
